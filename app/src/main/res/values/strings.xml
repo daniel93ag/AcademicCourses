@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CursosOnline REST</string>
+    <string name="id_label">El ID es:</string>
+    <string name="id_value">[id]</string>
+    <string name="action_refresh">Acerca de</string>
+    <string name="title_activity_ingresar">Ingresar Personas al Curso</string>
+    <string name="title_activity_modificar">Modificar Personas</string>
+    <string name="title_activity_eliminar">Eliminar Personas</string>
+    <string name="title_activity_consultar">Consultar Personas</string>
+
+    <string name="action_eliminar">Eliminar item</string>
+    <string name="action_modificar">Modificar item</string>
+
+
+
+
+</resources>

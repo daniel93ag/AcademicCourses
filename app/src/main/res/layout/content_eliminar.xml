@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Eliminar.EliminarActivity"
+    tools:showIn="@layout/activity_eliminar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Codigo Persona:"
+        android:paddingLeft="4dp"
+        android:id="@+id/textViewCedula"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCedulaE"
+        android:layout_below="@+id/textViewCedula"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnComprobarE" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnComprobarE"
+        android:src="@android:drawable/ic_menu_search"
+        android:background="@color/accent_material_light"
+        android:layout_alignTop="@+id/editTextCedulaE"
+        android:layout_alignParentEnd="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New RadioButton"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/editTextCedulaE"
+        android:layout_alignEnd="@+id/textViewCedula"
+        android:checked="false"
+        android:layout_marginTop="8dp" />
+
+
+</RelativeLayout>
